@@ -7,13 +7,13 @@
 
         <!-- Link to Landing Page -->
         <a href="{{ route('landingpage') }}" class="text-2xl font-bold">
-            <span class="text-red-600">Grocery</span><span class="text-white">Mart</span>
+            <span class="text-red-600">Housing</span><span class="text-white">Mart</span>
         </a>
 
         <!-- Link to Dashboard -->
         @auth
         <a href="{{ route('dashboard') }}" class="text-white hover:text-red-500 transition">
-            <span class="text-red-600">Grocery</span><span class="text-white">Mart</span>
+            <span class="text-red-600">Housing</span><span class="text-white">Mart</span>
         </a>
         @endauth
 

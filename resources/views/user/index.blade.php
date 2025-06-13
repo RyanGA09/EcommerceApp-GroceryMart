@@ -1,6 +1,6 @@
 @extends('user.layouts.index')
 
-@section('title', 'Main Page')
+@section('title', 'Landing Page')
 
 @section('content')
     <div class="px-4">
